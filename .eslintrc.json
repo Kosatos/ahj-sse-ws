@@ -1,0 +1,25 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+      "es2021": true,
+      "browser": true,
+      "jest": true
+    },
+    "parser": "@babel/eslint-parser",
+    "rules": {
+      "no-param-reassign": 0,
+      "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
+      "linebreak-style": 0,
+      "no-console": ["error", { "allow": ["warn", "error", "log"] }],
+      "no-unused-vars": "off",
+      "no-underscore-dangle": "off",
+      "no-use-before-define": "off",
+      "no-new": 0,
+      "import/no-named-as-default": 0,
+      "import/no-named-as-default-member": 0,
+      "no-nested-ternary": "off",
+      "keyword-spacing": "off",
+      "object-curly-newline": "off",
+      "operator-linebreak": "off"
+    }
+  }
